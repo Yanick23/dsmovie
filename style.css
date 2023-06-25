@@ -1,0 +1,131 @@
+:root {
+    --bg-cinza: #ddd;
+    --bg-violeta: #4d41c0;
+    --white: white;
+    --tituloc: #4A4A4A;
+
+
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Courier New', Courier, monospace;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/media/yanick23/New Volume/Fontes/Open_Sans (1)/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--bg-cinza);
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-violeta);
+    height: 60px;
+    color: var(--white);
+
+
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0%;
+}
+
+header .contact {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    height: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.contact a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.contact img {
+    margin-right: 10px;
+
+}
+
+
+#dsmovie-cardlist {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: flex-start;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 260px;
+    height: 349px;
+    top: 130px;
+    left: 33px;
+    border-radius:8px;
+    background-color: var(--white);
+    text-align: center;
+    margin: 10px;
+    margin-right: 50px;
+
+}
+
+.card .titulo {
+    
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--tituloc);
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
